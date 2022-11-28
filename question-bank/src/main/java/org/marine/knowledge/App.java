@@ -1,4 +1,4 @@
-package org.example;
+package org.marine.knowledge;
 
 /**
  * Hello world!

@@ -1,0 +1,12 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: question-bank-service
+  profiles:
+    active: prod
+    include: common,question-bank-service
+  cloud:
+    config:
+      enabled: false
